@@ -1,0 +1,21 @@
+.Button {
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white !important;
+    padding: .5rem .7rem;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    transition: background-color .2s;
+}
+.Button:hover {
+    background-color: var(--darker-primary);
+}
+.Button:active {
+    background-color: var(--darker-secondary);
+}
+
+.Button.large {
+    padding: .8rem 1rem;
+}
